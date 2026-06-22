@@ -13,8 +13,6 @@ print("Lista invertida:", numeros[::-1])
 print("Índices pares:", numeros[::2])
 print("Índices ímpares:", numeros[1::2])
 
-
-# questão 02
 urls = ["www.google.com", "www.gmail.com", "www.github.com",
         "www.reddit.com", "www.yahoo.com"]
 
@@ -26,8 +24,6 @@ for url in urls:
 print("URLs:", urls)
 print("Domínios:", dominios)
 
-
-# questão 03
 from random import randint
 
 numeros = []
@@ -42,8 +38,6 @@ print("Índice do menor valor:", numeros.index(min(numeros)))
 print("Soma:", sum(numeros))
 print("Média:", sum(numeros) / len(numeros))
 
-
-# questão 04
 lista1 = []
 lista2 = []
 lista3 = []
@@ -71,8 +65,6 @@ else:
 
 print("Lista intercalada:", lista3)
 
-
-# questão 05
 from random import randint
 
 lista1 = []
@@ -94,8 +86,6 @@ print("Lista 1:", lista1)
 print("Lista 2:", lista2)
 print("Intersecção:", interseccao)
 
-
-# questão 06
 from random import randint
 
 lista = []
@@ -113,8 +103,6 @@ for i in range(0, len(lista), tamanho):
 print("Lista original:", lista)
 print("Sublistas:", sublistas)
 
-
-# questão 07
 n = int(input("Digite n: "))
 
 matriz = []
